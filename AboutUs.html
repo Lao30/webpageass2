@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Organization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- NavBar -->
+        <nav class="navbar">
+            <div class="logo-container">
+              <a href="Home.html">
+                <img src="src/logo5.png" alt="Organization Logo" class="logo">
+              </a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <svg width="30" height="30" viewBox="0 0 100 80" fill="white" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100" height="10"></rect>
+                    <rect y="30" width="100" height="10"></rect>
+                    <rect y="60" width="100" height="10"></rect>
+                </svg>
+            </div>
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="AboutUs.html" class="active">About Us</a></li>
+                <li><a href="Programs.html">Programs</a></li>
+                <li><a href="GetInvolved.html" >Get Involved</a></li>
+            </ul>
+        </nav>
+        <!-- NavBar -->
+    </header>
+
+    <section class="about-section">
+        <div class="about-top">
+          <div class="about-left">
+            <h3>Know About Us</h3>
+            <h1>Bamboo School</h1>
+          </div>
+          <div class="about-right">
+            <p>
+              Street kids want schooling, but cant go, so for 10 years, YKPA giving informal elementary classes where the kids live.
+              A new bamboo school room HAS JUST OPENED in Kuta slum-like area.
+            </p>
+          </div>
+          <p class="about-full">
+            These children consistently ask for this informal schooling because their lives are too chaotic for normal schooling.
+            Todate, several girls have successfully passed the government elementary equivalency testing a massive accomplishment for a child who must still beg in the street.
+            This 'helping' has become a Project, requiring donations for a teacher, rent, and other simple administration costs. Thankfully, donors contribute to making this keep going.
+          </p>
+        </div>
+      
+        <div class="about-image-carousel">
+          <div class="carousel-container">
+            <img class="carousel-image active" src="src/aboutus1.jpg" alt="About 1">
+            <img class="carousel-image" src="src/volunteer2.jpg" alt="About 2">
+            <img class="carousel-image" src="src/volunteer-class1-2.jpg" alt="About 3">
+            <img class="carousel-image" src="src/donasi2.jpg" alt="About 4">
+          </div>
+          <button class="carousel-btn prev" onclick="prevImage()">❮</button>
+          <button class="carousel-btn next" onclick="nextImage()">❯</button>
+        </div>
+        
+      </section>
+
+      <section class="vision-mission">
+        <div class="vision">
+          <h2>Our Vision</h2>
+          <p>
+            To build a lasting and inclusive educational environment where Bali’s street children particularly those in Kuta can experience safety, dignity, and hope through learning.
+            We envision a future where every child, regardless of their background or living conditions, has the opportunity to learn, grow, and break free from the cycle of poverty.
+            This vision includes providing access not just to basic education, but to a community that nurtures their potential, values their presence, and equips them for a brighter tomorrow.
+          </p>
+        </div>
+        <div class="mission">
+          <h2>Our Mission</h2>
+          <p>
+            Our mission is to give disadvantaged children in Bali the loving care, education, and skills they need to grow into confident, capable individuals.
+            Through consistent and safe learning spaces, we support children whose lives are too unstable for formal schooling.
+            We help them pursue government equivalency education such as Paket A, B, or C so they can achieve official recognition for their learning, even while facing the daily realities of street life.
+          </p>
+        </div>
+      </section>      
+
+      <section class="quick-facts">
+        <div class="quick-facts-header">
+          <hr class="line">
+          <h2>Quick Facts</h2>
+          <hr class="line">
+        </div>
+      
+        <div class="facts-grid">
+          <div class="fact">
+            <h3>Started on the Beach</h3>
+            <p>The first informal class began on the beach in Kuta, where street kids felt safe enough to learn.</p>
+          </div>
+          <div class="fact">
+            <h3>Moved Many Times</h3>
+            <p>Over the years, the class moved through several locations shops, slum areas, and temporary spaces to keep the learning going.</p>
+          </div>
+          <div class="fact">
+            <h3>Real Achievements</h3>
+            <p>Several girls from the program have passed Indonesia’s government elementary equivalency test, despite still living and begging on the streets.</p>
+          </div>
+          <div class="fact">
+            <h3>Community-Powered</h3>
+            <p>The project runs entirely on donations and volunteer support funding teachers, learning spaces, and basic school needs.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="our-gallery">
+        <div class="gallery-header">
+          <hr class="line">
+          <h2>Our Gallery</h2>
+          <hr class="line">
+        </div>
+      
+        <div class="gallery-grid">
+          <div class="gallery-item"><img src="src/adik1.jpg" alt="Gallery Image 1"></div>
+          <div class="gallery-item"><img src="src/adik2.jpg" alt="Gallery Image 2"></div>
+          <div class="gallery-item"><img src="src/adik3.jpg" alt="Gallery Image 3"></div>
+          <div class="gallery-item"><img src="src/adik4.jpg" alt="Gallery Image 4"></div>
+          <div class="gallery-item"><img src="src/adik5.jpg" alt="Gallery Image 5"></div>
+          <div class="gallery-item"><img src="src/adik6.jpg" alt="Gallery Image 6"></div>
+          <div class="gallery-item"><img src="src/lani.jpg" alt="Gallery Image 7"></div>
+          <div class="gallery-item"><img src="src/lani2.jpg" alt="Gallery Image 8"></div>
+          <div class="gallery-item"><img src="src/volunteer-class1.jpg" alt="Gallery Image 9"></div>
+          <div class="gallery-item"><img src="src/volunteer-class2.jpg" alt="Gallery Image 10"></div>
+          <div class="gallery-item"><img src="src/volunteer-class3.jpg" alt="Gallery Image 11"></div>
+          <div class="gallery-item"><img src="src/volunteer-class4.jpg" alt="Gallery Image 12"></div>
+        </div>
+      </section>
+      
+     <!-- Footer-->
+     <footer class="footer">
+      <div class="footer-content">
+          <div class="footer-box">
+              <a href="Home.html">
+              <img src="src/logo5.png" alt="Logo" class="footer-logo">
+              </a>
+          </div>
+          <div class="footer-box">
+              <h4>Contact Us</h4>
+              <p>
+                  <a href="https://wa.me/+6287749853352" target="_blank" onclick="return showAlert()">+62 877 4985 3352</a>
+              </p>
+          </div>
+          <div class="footer-box">
+              <h4>Visit Us</h4>
+              <p>
+                  <a href="https://maps.app.goo.gl/whjSJVF8uLwS6ZRA8" target="_blank" onclick="return showAlert()">Gg. Kubu, Kuta, Kec. Kuta,<br>
+                 Kabupaten Badung, Bali 80361</a>
+              </p>
+          </div>
+          <div class="footer-box">
+              <h4>Connect With Us</h4>
+              <p><img src="src/instagram.png" alt="IG" class="icon">
+                  <a href="https://instagram.com/balistreetkidsschoolproject" target="_blank" onclick="return showAlert()"> @balistreetkidsschoolproject</a>
+              </p>
+          </div>
+      </div>
+      <p class="footer-bottom">&copy; 2025 Community Organization. All rights reserved.</p>
+  </footer>
+    <script src="main.js"></script>
+    <!--Footer-->
+
+</body>
+</html>

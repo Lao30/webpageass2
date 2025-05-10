@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Organization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- NavBar -->
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="Home.html">
+                <img src="src/logo5.png" alt="Organization Logo" class="logo">
+                </a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <svg width="30" height="30" viewBox="0 0 100 80" fill="white" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100" height="10"></rect>
+                    <rect y="30" width="100" height="10"></rect>
+                    <rect y="60" width="100" height="10"></rect>
+                </svg>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="Programs.html">Programs</a></li>
+                <li><a href="GetInvolved.html">Get Involved</a></li>
+            </ul>
+        </nav>
+        <!-- NavBar -->
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero-section">
+            <div class="hero-text">
+                <h1>Empowering the Future</h1>
+                <p>Together we build a stronger community through education and compassion.</p>
+                <button class="cta-button" onclick="location.href='GetInvolved.html#contact-section'">Join Volunteer</button>
+            </div>
+            <div class="hero-image">
+                <img src="src/hero.jpg" alt="Hero Image">
+            </div>
+        </section>
+
+        <!-- Our Mission Section -->
+        <section class="mission-section">
+            <div class="mission-content">
+                <h2>Our Mission</h2>
+                <p>Giving disadvantaged children here in Bali the loving care, education, and skills they need to grow.</p>
+            </div>
+            <div class="mission-image">
+                <img src="src/mission.jpg" alt="Mission Image">
+            </div>
+        </section>
+
+        <!-- Higlight Programs Section-->
+        <section class="programs-section">
+            <h2>Higlight Programs</h2>
+            <div class="programs-container">
+
+                <div class="program-card">
+                    <img src="src/program1.jpg" alt="Program 1">
+                    <h3>Kejar Paket Class</h3>
+                    <p>A flexible learning program that helps children complete their basic education (Package A, B, or C) in a supportive and child-friendly environment.</p>
+                </div>
+
+                <div class="program-card">
+                  <img src="src/program2.jpg" alt="Program 1">
+                  <h3>Volunteer Class</h3>
+                  <p>In Volunteer Class, children learn new and exciting things from visiting volunteers.
+                    The topics vary depending on each volunteer’s skills ranging from arts and languages to life skills and fun activities.
+                    Every session is a chance to learn, grow, and be inspired!                  </p>
+              </div>
+
+              <div class="program-card">
+                <img src="src/program3.jpg" alt="Program 1">
+                <h3>Smiling Trip Project</h3>
+                <p>An educational and fun outing program for children. Sometimes we visit exciting places like the zoo, the beach, or a volunteer’s home.
+                    Through these trips, children can play, learn new things, and create joyful memories with friends and volunteers.</p>
+              </div>
+
+            </div>
+        </section>
+
+        <!-- Call for Volunteer-->
+        <section class= "volunteer-section">
+            <div class="volunteer-text">
+                <h2>Call for Volunteer</h2>
+                <p>We're looking for passionate individuals who want to make a real difference in the community.
+                    Be part of our volunteer team and help bring meaningful impact through our social initiatives. Your time matters!
+                </p>
+            </div>
+            <div class="volunteer-image-caraousel">
+                <div class="carousel-container">
+                    <img class="carousel-image" src="src/aboutus1.jpg" alt="Volunteer1">
+                    <img class="carousel-image" src="src/donasi2.jpg" alt="Volunteer1">
+                    <img class="carousel-image" src="src/volunteer-class1-2.jpg" alt="Volunteer1">
+                    <img class="carousel-image" src="src/volunteer2.jpg" alt="Volunteer1">
+                </div>
+            </div>
+
+            <button class="cta-button" onclick="location.href='GetInvolved.html#contact-section'">Join Volunteer</button>
+            
+        </section>
+    </main>
+
+    <!-- Footer-->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-box">
+                <a href="#hero-section">
+                <img src="src/logo5.png" alt="Logo" class="footer-logo">
+                </a>
+            </div>
+            <div class="footer-box">
+                <h4>Contact Us</h4>
+                <p>
+                    <a href="https://wa.me/+6287749853352" target="_blank" onclick="return showAlert()">+62 877 4985 3352</a>
+                </p>
+            </div>
+            <div class="footer-box">
+                <h4>Visit Us</h4>
+                <p>
+                    <a href="https://maps.app.goo.gl/whjSJVF8uLwS6ZRA8" target="_blank" onclick="return showAlert()">Gg. Kubu, Kuta, Kec. Kuta,<br>
+                   Kabupaten Badung, Bali 80361</a>
+                </p>
+            </div>
+            <div class="footer-box">
+                <h4>Connect With Us</h4>
+                <p><img src="src/instagram.png" alt="IG" class="icon">
+                    <a href="https://instagram.com/balistreetkidsschoolproject" target="_blank" onclick="return showAlert()"> @balistreetkidsschoolproject</a>
+                </p>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; 2025 Community Organization. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
